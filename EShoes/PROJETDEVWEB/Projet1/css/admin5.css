@@ -1,0 +1,181 @@
+
+#lien-gestioncompte
+{
+    color:rgba(0,247,255,1);
+}
+#span-gestioncompte
+{
+  border-bottom: solid 2px rgba(0,247,255,1);
+}
+.symbol-form
+{
+    position: absolute;
+    top: -25px;
+    right: 86px;
+    left: 86px;
+    text-align: center;
+}
+.container-gestioncompte
+{
+    background-color: #fff;
+    color: #8d8d8d;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin: 10px auto;
+    margin-bottom: 40px!important;
+    width: 80%;
+    max-width: 480px;
+    padding: 28px;
+    text-align: left;
+    border: solid thin rgba(0,247,255,1) ;
+    border-radius: 5px;
+    position: relative;
+}
+.container-data
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.container-data .data
+{
+    width: 100%;
+    text-align: left;
+    margin: 25px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.data p
+{
+    font-weight:bold;
+    width: 25%;
+    min-width: 150px;
+    text-align: center;
+}
+.span-mdp
+{
+    font-weight: 12000;
+}
+.data  span
+{
+    font-style: italic;
+    width: 65%;
+}
+
+.icon-edit svg
+{
+    fill: inherit;
+
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*    ESPACE ADMIN   */
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+table
+{
+    border-collapse:collapse;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+tr td
+{
+    border: solid 3px black;
+    border-spacing: 0;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+.space
+{
+    border: none !important;
+}
+.apercu
+{
+    width:150px !important;
+    height: auto;
+}
+table input{
+padding: 3px;
+
+}
+.membres-produits
+{
+    margin-top:15px;
+}
+.membres-produits li{
+    padding: 5px;
+}
+
+table .modifier_données:hover{
+    color: rgba(0,247,255,1);
+}
+table .supprimer_données:hover{
+    color: red;
+}
+
+.grand-body-admin
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: 100%;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.header-body-admin
+{
+    padding:25px;
+   
+}
+.Tableau-données
+{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Tableau-données input
+{
+    padding: 5px;
+    font-size: 10px;
+}
+.Tableau-données table{
+    font-size: 12px;
+}
+.Tableau-données div,.Tableau-données li{
+    margin: 15px;
+    padding-left: 5px;
+    list-style: square;
+    opacity: 1  !important;
+    color: black;
+}
+.pseudo-admin
+{
+    font-weight: bold;
+}
+.grand-body-admin a:hover{
+    opacity: 2;
+}

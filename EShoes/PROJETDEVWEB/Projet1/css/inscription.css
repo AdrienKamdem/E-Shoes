@@ -1,0 +1,212 @@
+
+.container-body
+{
+    display: block;
+    width: 70%;
+    margin:50px auto;
+}
+.container-body * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Helvetica!important;
+    font-size: 14px;
+    line-height: normal;
+    outline: 0;
+    margin: 0;
+
+}
+.header-body
+{
+    padding-left: 25px;
+}
+.container-form
+{
+    background-color: #fff;
+    color: #8d8d8d;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin: 10px auto;
+    margin-bottom: 10px  !important;
+    width: 80%;
+    max-width: 480px;
+    padding: 60px;
+    padding-top: 0px !important;
+    text-align: left;
+    min-height: 400px;
+    border: solid thin rgba(0,247,255,1) ;
+    border-radius: 5px;
+    position: relative;
+}
+
+.symbol-form
+{
+    position: absolute;
+    top: -25px;
+    right: 86px;
+    left: 86px;
+    text-align: center;
+}
+.header-text {
+    color: #111;
+    font-family: TradeGothicforNike365-BdCn,Helvetica!important;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    max-width: 25ch;
+    padding: 32px 0 26px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.header-message
+{
+    font-family: HelveticaNeue,Helvetica!important;
+    line-height: 22px;
+    font-weight: 400;
+    padding-bottom: 17px;
+    text-align: center;
+    text-transform: none!important;
+}
+
+input[type="radio"]
+{
+    display: none;
+}
+
+.container-genre
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-around;
+            padding-top: 0 !important;
+}
+
+.container-genre label
+{
+    position: relative;
+    color: rgba(0,247,255,1);
+    border: 1px solid  rgba(0,247,255,1);
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 25%;
+    text-align: center;
+}
+.container-genre input[type="radio"]:checked + label
+{
+background-color: rgba(0,247,255,1);
+color:white;
+}
+.container-genre label:hover
+{
+    cursor: pointer;
+}
+.container-submit
+{
+    padding-top: 15px;
+}
+
+
+.test{
+    opacity: 1;
+}
+/*TEST*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*Mise en forme des input avec placeholder
+PRINCIPALEMENT pour l'inout date qui n'a pas de placceholder de base
+on en crée un manuellement 
+*/
+
+/*
+
+/!\  Le label " date de naissance" est affiché en bas de l'input
+ceci sera modifier quand on passera sur le js
+*/
+.input-ddn,.input-ddc
+{
+    cursor: pointer;
+}
+.label-ddn,.label-ddc
+{
+    display: flex;
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    background-color: white;
+    padding: 0 14px;
+    cursor: pointer;
+}
+.label-fake-placeholder
+{
+    display: none;
+}
+
+/* POUR tester le formulaire */
+form input{
+    border:1px solid #e5e5e5;
+}
+
+.error
+{
+    display:none;
+    color: red;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+.wrong
+{
+    border:1px solid red !important;
+}
+.error-is-active
+{
+    display: flex !important;
+}
+
+.suggestionCP,
+.suggestionMDP
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    font-size: 11px;
+    color:lightgrey;
+}
+.suggestionCP-is-ok,
+.suggestionMDP .condition-is-ok
+{
+    color:green;
+}
+.suggestionCP-is-ok:after,
+.suggestionMDP .condition-is-ok::after
+{
+    content: "\2713";
+    color: green;
+    padding-left: 5px;
+}
+.condition{
+    padding-right: 15px;
+}
+/*  test des formulaires avec php */
+.errorphp 
+{
+    color: red;
+    padding-top: 5px;
+    padding-left: 2px;
+}

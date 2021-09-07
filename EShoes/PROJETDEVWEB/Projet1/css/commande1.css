@@ -1,0 +1,59 @@
+table
+{
+    border-collapse:collapse;
+    align-items: center;
+    text-align: center;
+    
+}
+.clients{
+    min-width: 100%;
+}
+.articles
+{
+    min-width: 50%;
+}
+tr td
+{
+    border: solid 3px black;
+    border-spacing: 0;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+.Tableau-données
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+body{
+    width:80%;
+    margin:auto;
+}
+body * {
+    padding: 5px;
+}
+.header_tr
+{
+    background-color: rgb(223, 223, 223);
+}
+a
+{
+    padding: 2px;
+    color: blue;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Recap_commande
+{
+    text-decoration: underline;
+}
+.commande
+{
+
+}

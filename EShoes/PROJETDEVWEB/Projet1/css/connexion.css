@@ -1,0 +1,236 @@
+
+
+/*ATTENTION!
+Message d'erreur en rouge: 
+on a un div qui contient le message d'erreur
+avec php ==> Ecrire le message d'erreur si erreur, sinon laisser vide;
+
+*/
+#erreur-validationC
+{
+    color: red;
+}
+/*
+ POUR FAire apparraitre le formulaire de connexion, il suffit 
+ d'enlever le display none, dans pre-window
+*/
+
+.check-connexion /*Label*/
+{
+    color: inherit;
+    opacity: 0.8;
+}
+.check-connexion:hover,
+#lien-inscription:hover
+{
+    cursor: pointer;
+    color:rgba(0,247,255,1);
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*
+ pour le selecteur " ~ ",  il selectionne les voisins,
+  qui ont le mem parent
+ donc  mon inout #show doit être dans le meme div que .pre-window
+ Mais peut importe la position du label
+
+ ICI parent de pre-window = body
+ donc je met l'input just avant pre-window
+ */
+
+.checkbox-show-connexion{
+ display: none;
+}
+#show:checked ~.pre-window {
+    opacity: 1;
+    visibility: visible;
+}
+/* Quand on est sur la page connexion, le label connexion du top est bleu*/
+#label-connexion
+{
+    color:rgba(0,247,255,1);
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.window-connexion header
+{
+    display: block;
+}
+.close-connexionBTN
+{
+    position: absolute;
+    background:none;
+    border:none;
+    outline: 0;
+    top: 20px;
+    right: 15px;
+}
+.close-connexionBTN:hover
+{
+    cursor: pointer;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.symbol-connexion
+{
+    text-align: center;
+}
+
+.pre-window 
+{
+    overflow: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    z-index: 1222002;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   opacity: 0;
+    visibility: hidden;
+    background: rgba(0,0,0,0.6);
+    /*transition: opacity .2s,visibility 0s linear .2s;*/
+}
+.header-text
+{
+    padding: 10px 0 27px;
+    color: #111;
+    font-family: TradeGothicforNike365-BdCn,Helvetica!important;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    max-width: 25ch;
+    text-align: center;
+    font-weight: 700;
+}
+
+.window-connexion
+{
+    position: relative;
+    width: 100%;
+    max-width: 436px;
+    display: block;
+    /*opacity: 0;*/
+   /* transform: translateY(30px);*/
+    -webkit-transition: opacity .2s,-webkit-transform .4s ease;
+    transition: opacity .2s,-webkit-transform .4s ease;
+    -o-transition: transform .4s ease,opacity .2s;
+    transition: transform .4s ease,opacity .2s;
+    transition: transform .4s ease,opacity .2s,-webkit-transform .4s ease;
+    -webkit-transition-delay: .1s;
+         -o-transition-delay: .1s;
+            transition-delay: .1s;
+    border-radius: 3px;
+    background: #fff;
+    margin: auto;
+      max-height: 544px;
+      padding: 28px 28px 20px;
+}
+.container-connexion
+{
+    background-color: #fff;
+    color: #8d8d8d;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin: auto;
+    max-width: 380px;
+/* padding: 28px 28px 20px;*/
+    
+    text-align: left;
+}
+.container-connexion form
+{
+    position: relative;
+    overflow: hidden;
+   /* width: 100%;*/
+}
+.container-connexion *
+{
+    font-family: Helvetica!important;
+    line-height: normal;
+    outline: 0;
+    margin: 0;
+}
+.errorC
+{
+    display: none;
+    color: #fe0000;
+    font-size: 12px;
+    padding: 12px 0 8px;
+}
+.component
+{
+    display: inline-block;
+    margin: 5px 0;
+    position: relative;
+    width: 100%;
+}
+#erreur-validation
+{
+    display: block;
+}
+.container-input
+{
+    padding-top: 40px;
+}
+.container-input input
+{
+    left: 0;
+    position: absolute;
+    top: 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #8d8d8d;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 100%;
+}
+.container-mdp-oublie
+{
+    text-align: center;
+}
+
+.container-submit input
+{
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    font-family: TradeGothicforNike365-BdCn,Helvetica!important;
+    font-size: 15px;
+    margin: auto;
+        height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 100%;
+}
+.container-submit input:hover
+{
+        background-color: rgba(0,247,255,1);
+        border-color: rgba(0,247,255,1);
+    color: white;
+}
+#container-link-inscription
+{
+    margin-top:15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#link-inscription
+{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.errorphp 
+{
+    color: red;
+    padding-top: 5px;
+    padding-left: 2px;
+}

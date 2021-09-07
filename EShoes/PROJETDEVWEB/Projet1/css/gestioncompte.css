@@ -1,0 +1,86 @@
+
+#lien-gestioncompte
+{
+    color:rgba(0,247,255,1);
+}
+#span-gestioncompte
+{
+  border-bottom: solid 2px rgba(0,247,255,1);
+}
+.symbol-form
+{
+    position: absolute;
+    top: -25px;
+    right: 86px;
+    left: 86px;
+    text-align: center;
+}
+.container-gestioncompte
+{
+    background-color: #fff;
+    color: #8d8d8d;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin: 10px auto;
+    margin-bottom: 40px!important;
+    width: 80%;
+    max-width: 480px;
+    padding: 28px;
+    text-align: left;
+    border: solid thin rgba(0,247,255,1) ;
+    border-radius: 5px;
+    position: relative;
+}
+.container-data
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.container-data .data
+{
+    width: 100%;
+    text-align: left;
+    margin: 25px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.data p
+{
+    font-weight:bold;
+    width: 25%;
+    min-width: 150px;
+    text-align: center;
+}
+.span-mdp
+{
+    font-weight: 12000;
+}
+.data  span
+{
+    font-style: italic;
+    width: 65%;
+}
+
+.icon-edit svg
+{
+    fill: inherit;
+
+}

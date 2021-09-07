@@ -1,0 +1,39 @@
+.container-genre
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 !important;
+
+}
+textarea
+{
+border: 1px solid #e5e5e5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #8d8d8d;
+    font: 14px Helvetica;
+    height: 90px;
+    width: 100%;
+    padding: 16px;
+    overflow: auto;
+}
+.msg-envoyer
+{
+    text-align: center;
+    color: #00FF00 !important;
+
+}
+#lien-contact
+{
+    color:rgba(0,247,255,1) ! important;
+}
+#span-contact
+{
+  border-bottom: solid 2px rgba(0,247,255,1);
+}
